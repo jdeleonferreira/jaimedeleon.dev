@@ -1,0 +1,27 @@
+@page "/articles"
+@inject NavigationManager Nav
+
+<h1>Artículos</h1>
+@if (string.IsNullOrEmpty(seleccion))
+{
+    <ul>
+        @foreach (var art in articulos)
+        {
+            <li><a @onclick="() => Seleccionar(art)">@art</a></li>
+        }
+    </ul>
+}
+else
+{
+    <button @onclick="Volver">Volver a la lista</button>
+    <ArticleViewer T="string" Archivo="@seleccion" />
+}
+
+@code {
+    // Lista de nombres de archivo sin extensión
+    private string[] articulos = new[] { "primer-post", "segundo-post" };
+    private string? seleccion;
+
+    void Seleccionar(string nombre) => seleccion = nombre;
+    void Volver() => seleccion = null;
+}

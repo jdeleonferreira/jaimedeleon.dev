@@ -1,0 +1,36 @@
+@using Markdig
+@inject HttpClient Http
+
+@typeparam T
+
+
+
+@code {
+    private MarkupString contenido;
+
+    [Parameter]
+    public string Article { get; set; } = string.Empty;
+    protected override async Task OnParametersSetAsync()
+    {
+        if (!string.IsNullOrWhiteSpace(Article))
+        {
+            // Carga el markdown desde wwwroot/articles
+            var markdown = await Http.GetStringAsync($"articles/{Article}.md");
+            // Convierte el markdown a HTML usando Markdig
+            var html = Markdown.ToHtml(markdown);
+            // Envuelve el HTML en un MarkupString para renderizarlo sin escapar
+            contenido = new MarkupString(html);
+        }
+    }
+}
+
+@if (!string.IsNullOrWhiteSpace(Article))
+{
+    <div class="articulo">
+        @contenido
+    </div>
+}
+else
+{
+    <p>Selecciona un artículo para leer.</p>
+}

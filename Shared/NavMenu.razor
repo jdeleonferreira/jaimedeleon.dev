@@ -2,14 +2,20 @@
 
 <nav class="navbar">
     <div class="nav-container">
-        <a class="site-title" href="/">Blog de un desarrollador .NET</a>
+        <a class="site-title" href="/">JaimeDeLeon.Dev</a>
         <button class="nav-toggle" @onclick="ToggleNav" aria-label="Mostrar u ocultar menú">
             <span>&#9776;</span>
         </button>
         <ul class="nav-links @(isNavOpen ? "open" : string.Empty)">
-            <li><NavLink href="/" Match="NavLinkMatch.All">Inicio</NavLink></li>
-            <li><NavLink href="/about">About</NavLink></li>
-            <li><NavLink href="/contacto">Contacto</NavLink></li>
+            <li>
+                <NavLink href="/" Match="NavLinkMatch.All">Inicio</NavLink>
+            </li>
+            <li>
+                <NavLink href="/about">About</NavLink>
+            </li>
+            <li>
+                <NavLink href="/contacto">Contacto</NavLink>
+            </li>
         </ul>
     </div>
 </nav>

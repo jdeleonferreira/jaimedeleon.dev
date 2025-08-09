@@ -1,5 +1,9 @@
 @page "/articles"
 @inject NavigationManager Nav
+@inject IWebAssemblyHostEnvironment Environment
+@using System.IO
+@using Microsoft.AspNetCore.Components.WebAssembly.Hosting
+
 
 <h1>Artículos</h1>
 @if (string.IsNullOrEmpty(seleccion))
@@ -14,14 +18,23 @@
 else
 {
     <button @onclick="Volver">Volver a la lista</button>
-    <ArticleViewer T="string" Archivo="@seleccion" />
+    <ArticleViewer T="string" Article="@seleccion" />
 }
 
 @code {
     // Lista de nombres de archivo sin extensión
     private string[] articulos = new[] { "primer-post", "segundo-post" };
     private string? seleccion;
+    protected override void OnInitialized()
+    {
+        var wwwrootpath = Environment.BaseAddress;
+        var articlesPath = Path.Combine(wwwrootpath, "articles");
 
+        // Obtener todos los archivos .md y quitar la extensión
+        articulos = Directory.GetFiles(articlesPath, "*.md")
+        .Select(Path.GetFileNameWithoutExtension)
+        .ToArray();
+    }
     void Seleccionar(string nombre) => seleccion = nombre;
     void Volver() => seleccion = null;
 }

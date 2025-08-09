@@ -1020,8 +1020,6 @@ C:\dev\JD.blog\jaimedeleon.dev\bin\Debug\net9.0\wwwroot\_framework\Microsoft.JSI
 C:\dev\JD.blog\jaimedeleon.dev\bin\Debug\net9.0\wwwroot\_framework\dotnet.native.50iqa8w3ys.js
 C:\dev\JD.blog\jaimedeleon.dev\bin\Debug\net9.0\wwwroot\_framework\dotnet.native.pk43x8e436.wasm
 C:\dev\JD.blog\jaimedeleon.dev\bin\Debug\net9.0\wwwroot\_framework\dotnet.runtime.ew19f13umk.js
-C:\dev\JD.blog\jaimedeleon.dev\bin\Debug\net9.0\wwwroot\_framework\jaimedeleon.dev.61isozhxvp.wasm
-C:\dev\JD.blog\jaimedeleon.dev\bin\Debug\net9.0\wwwroot\_framework\jaimedeleon.dev.zksu8eq9md.pdb
 C:\dev\JD.blog\jaimedeleon.dev\bin\Debug\net9.0\wwwroot\_framework\Microsoft.AspNetCore.Authorization.tnyc7xpluy.wasm.gz
 C:\dev\JD.blog\jaimedeleon.dev\bin\Debug\net9.0\wwwroot\_framework\Microsoft.AspNetCore.Components.t32damlu4o.wasm.gz
 C:\dev\JD.blog\jaimedeleon.dev\bin\Debug\net9.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Forms.up1bcx14yi.wasm.gz
@@ -1047,8 +1045,6 @@ C:\dev\JD.blog\jaimedeleon.dev\bin\Debug\net9.0\wwwroot\_framework\Microsoft.JSI
 C:\dev\JD.blog\jaimedeleon.dev\bin\Debug\net9.0\wwwroot\_framework\dotnet.native.50iqa8w3ys.js.gz
 C:\dev\JD.blog\jaimedeleon.dev\bin\Debug\net9.0\wwwroot\_framework\dotnet.native.pk43x8e436.wasm.gz
 C:\dev\JD.blog\jaimedeleon.dev\bin\Debug\net9.0\wwwroot\_framework\dotnet.runtime.ew19f13umk.js.gz
-C:\dev\JD.blog\jaimedeleon.dev\bin\Debug\net9.0\wwwroot\_framework\jaimedeleon.dev.61isozhxvp.wasm.gz
-C:\dev\JD.blog\jaimedeleon.dev\bin\Debug\net9.0\wwwroot\_framework\jaimedeleon.dev.zksu8eq9md.pdb.gz
 C:\dev\JD.blog\jaimedeleon.dev\obj\Debug\net9.0\compressed\69zgkgaotf-tnyc7xpluy.gz
 C:\dev\JD.blog\jaimedeleon.dev\obj\Debug\net9.0\compressed\coxybkl6a6-t32damlu4o.gz
 C:\dev\JD.blog\jaimedeleon.dev\obj\Debug\net9.0\compressed\l4uf8lsu2j-up1bcx14yi.gz
@@ -1077,6 +1073,10 @@ C:\dev\JD.blog\jaimedeleon.dev\obj\Debug\net9.0\compressed\0ktn90pr8z-50iqa8w3ys
 C:\dev\JD.blog\jaimedeleon.dev\obj\Debug\net9.0\compressed\mv3f7cgj1o-pk43x8e436.gz
 C:\dev\JD.blog\jaimedeleon.dev\obj\Debug\net9.0\compressed\x0tt16rvip-ew19f13umk.gz
 C:\dev\JD.blog\jaimedeleon.dev\obj\Debug\net9.0\compressed\x8m8nkbddo-i8ixevln79.gz
-C:\dev\JD.blog\jaimedeleon.dev\obj\Debug\net9.0\compressed\8moatl31t9-61isozhxvp.gz
-C:\dev\JD.blog\jaimedeleon.dev\obj\Debug\net9.0\compressed\aqklixgx83-zksu8eq9md.gz
-C:\dev\JD.blog\jaimedeleon.dev\obj\Debug\net9.0\compressed\ocqc007j3o-sms30hbb06.gz
+C:\dev\JD.blog\jaimedeleon.dev\bin\Debug\net9.0\wwwroot\_framework\jaimedeleon.dev.otklkgtlib.wasm
+C:\dev\JD.blog\jaimedeleon.dev\bin\Debug\net9.0\wwwroot\_framework\jaimedeleon.dev.9l75jgnc9j.pdb
+C:\dev\JD.blog\jaimedeleon.dev\bin\Debug\net9.0\wwwroot\_framework\jaimedeleon.dev.otklkgtlib.wasm.gz
+C:\dev\JD.blog\jaimedeleon.dev\bin\Debug\net9.0\wwwroot\_framework\jaimedeleon.dev.9l75jgnc9j.pdb.gz
+C:\dev\JD.blog\jaimedeleon.dev\obj\Debug\net9.0\compressed\8moatl31t9-otklkgtlib.gz
+C:\dev\JD.blog\jaimedeleon.dev\obj\Debug\net9.0\compressed\aqklixgx83-9l75jgnc9j.gz
+C:\dev\JD.blog\jaimedeleon.dev\obj\Debug\net9.0\compressed\ocqc007j3o-eyyu24ju5d.gz

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("jaimedeleon.dev")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5d718e71bc794f10db45a86a6f651dda7207b108")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8da0ae66e8433beb8b20dbb1930f8696bfdbfc78")]
 [assembly: System.Reflection.AssemblyProductAttribute("jaimedeleon.dev")]
 [assembly: System.Reflection.AssemblyTitleAttribute("jaimedeleon.dev")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

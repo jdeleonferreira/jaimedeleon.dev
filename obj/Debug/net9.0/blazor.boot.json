@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "jaimedeleon.dev",
   "resources": {
-    "hash": "sha256-08V1Ot3LOjX8weSH85VRBHsANo+/o+8eKOGtNqZyoD4=",
+    "hash": "sha256-1btVSBlR2uaY7w8v2CFS2JUpElSZn3jKlvPzpSwuCI4=",
     "fingerprinting": {
       "Markdig.skwcisyl6l.wasm": "Markdig.wasm",
       "Microsoft.AspNetCore.Authorization.tnyc7xpluy.wasm": "Microsoft.AspNetCore.Authorization.wasm",
@@ -202,8 +202,8 @@
       "icudt_CJK.tjcz0u77k5.dat": "icudt_CJK.dat",
       "icudt_EFIGS.tptq2av103.dat": "icudt_EFIGS.dat",
       "icudt_no_CJK.lfu7j35m59.dat": "icudt_no_CJK.dat",
-      "jaimedeleon.dev.61isozhxvp.wasm": "jaimedeleon.dev.wasm",
-      "jaimedeleon.dev.zksu8eq9md.pdb": "jaimedeleon.dev.pdb"
+      "jaimedeleon.dev.otklkgtlib.wasm": "jaimedeleon.dev.wasm",
+      "jaimedeleon.dev.9l75jgnc9j.pdb": "jaimedeleon.dev.pdb"
     },
     "jsModuleNative": {
       "dotnet.native.50iqa8w3ys.js": "sha256-pQdXuxfVeqYHOwd5HUM2ERd7OnXirj9JTF37b6OdTAc="
@@ -414,10 +414,10 @@
       "WindowsBase.pg3o6xzigg.wasm": "sha256-dz62CHynC+zqTkbMOf3vm7YAhiRA8/pIoAwuqHfBL5M=",
       "mscorlib.jl2pswegra.wasm": "sha256-mSoCIDTdCQKTipW8VmFCypW/4AopZauaYRa8LoZdHvY=",
       "netstandard.uriri6ambh.wasm": "sha256-yuH/cvPd6r8N9nfPWihyckFD7hPFP+VQtQQxEqi7HIQ=",
-      "jaimedeleon.dev.61isozhxvp.wasm": "sha256-tuEGkKwMLfuPVc4o0aO6bsEh+1Panlq5M6WXi6eukNA="
+      "jaimedeleon.dev.otklkgtlib.wasm": "sha256-rECo6XYUveJe2g1j0OE5mGVG3MJUFksCpQEtaJ8OTkc="
     },
     "pdb": {
-      "jaimedeleon.dev.zksu8eq9md.pdb": "sha256-zTNW3ks+LuKmt7ZBHjgNPtXZyV2xF1m85mSt9j+7TZk="
+      "jaimedeleon.dev.9l75jgnc9j.pdb": "sha256-U6dA/5looqfWurdUZy8nYDERMHeWsRjcL7cMAvc/Z48="
     }
   },
   "cacheBootResources": true,
